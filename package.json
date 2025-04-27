@@ -1,14 +1,15 @@
 {
-  "name": "advanced-astrology-api",
+  "name": "astronomy-server",
   "version": "1.0.0",
-  "description": "خادم جلب البيانات الفلكية لموقع الخريطة الفلكية",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "axios": "^1.6.7",
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
   }
 }
