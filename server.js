@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // تأكد من تحميل المتغيرات
-console.log('🔑 OPENCAGE_API_KEY =', process.env.OPENCAGE_API_KEY);
+const OPENCAGE_API_KEY = '2bae061bcafa45b2a7cfbeb395c52975';
 console.log('🔑 ASTRONOMY_APP_ID =', process.env.ASTRONOMY_APP_ID);
 console.log('🔑 ASTRONOMY_APP_SECRET =', process.env.ASTRONOMY_APP_SECRET);
 
