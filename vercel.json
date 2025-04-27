@@ -8,7 +8,18 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/",
+      "methods": ["GET"],
+      "dest": "server.js"
+    },
+    {
+      "src": "/get-coordinates",
+      "methods": ["POST"],
+      "dest": "server.js"
+    },
+    {
+      "src": "/get-planets",
+      "methods": ["POST"],
       "dest": "server.js"
     }
   ]
